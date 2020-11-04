@@ -1,3 +1,8 @@
+// The thingful-client should store the base64 encoded credentials when the login form is submitted.
+// The base64 encoded credentials should be sent in requests to protected endpoints.
+// If a user attempts to view the login form when they're already logged in, they should be redirected to the thing list page.
+// If a user tries to view reviews for a thing, they should be redirected to the login form page.
+
 import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Header from '../Header/Header'
